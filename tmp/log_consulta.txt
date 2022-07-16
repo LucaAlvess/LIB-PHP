@@ -1,0 +1,1 @@
+2022-07-07 17:12:05 - TIPO=´CONSULTA´ - SELECT * FROM user WHERE id= :id

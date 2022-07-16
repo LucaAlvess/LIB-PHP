@@ -1,0 +1,2 @@
+2022-07-07 17:15:49 - TIPO=´ATUALIZAÇÃO´ - SELECT * FROM user WHERE id= :id
+2022-07-07 17:15:49 - TIPO=´ATUALIZAÇÃO´ - UPDATE user SET id = :id, nome = :nome, email = :email, senha = :senha WHERE id= :id

@@ -1,0 +1,1 @@
+2022-07-07 17:14:35 - TIPO=´INSERÇÃO´ - INSERT INTO user (nome, email, senha) VALUES (:nome, :email, :senha)
