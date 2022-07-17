@@ -1,11 +1,13 @@
-# Ignore os arquivos de sistema do Mac
-#.DS_store
+# Ignore os arquivos de sistema
+.DS_store
+.idea
 
 # Ignore a pasta node_modules
 #node_modules
 
 # Ignore todos os arquivos de texto
-#*.txt
+*.txt
+
 
 # Ignore arquivos relacionados às chaves de API
 #.env

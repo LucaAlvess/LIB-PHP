@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac9d23b-67a3-4236-8376-314dba9da9ed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/SimpleFormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/SimpleFormController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/page/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/page/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/widgets/form/SimpleForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/form/SimpleForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,7 @@
       <workItem from="1657935546586" duration="184000" />
       <workItem from="1657935742122" duration="3270000" />
       <workItem from="1658017733451" duration="15205000" />
-      <workItem from="1658088082100" duration="4161000" />
+      <workItem from="1658088082100" duration="4474000" />
     </task>
     <servers />
   </component>
