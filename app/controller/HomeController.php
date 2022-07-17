@@ -18,6 +18,6 @@ class HomeController extends Page
     {
         $content = View::render('home');
 
-        echo TemplateController::getTemplate('Página Inicial', $content);
+        print TemplateController::getTemplate('Página Inicial', $content);
     }
 }

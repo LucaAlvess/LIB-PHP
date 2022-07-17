@@ -1,8 +1,8 @@
 <?php
 
-date_default_timezone_set('America/Sao_Paulo');
-
 require_once __DIR__ . '/vendor/autoload.php';
+
+date_default_timezone_set(DEFAULT_TIMEZONE);
 
 
 if ($_GET) {

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ac9d23b-67a3-4236-8376-314dba9da9ed" name="Changes" comment="" />
+    <list default="true" id="8ac9d23b-67a3-4236-8376-314dba9da9ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/SimpleFormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/SimpleFormController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/page/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/page/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/form/SimpleForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/form/SimpleForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,16 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/opt/lampp/htdocs/lib",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/opt/lampp/htdocs/lib&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +57,11 @@
       <updated>1657847588938</updated>
       <workItem from="1657847590235" duration="3468000" />
       <workItem from="1657915835518" duration="4581000" />
-      <workItem from="1657929052795" duration="2663000" />
+      <workItem from="1657929052795" duration="3435000" />
+      <workItem from="1657935546586" duration="184000" />
+      <workItem from="1657935742122" duration="3270000" />
+      <workItem from="1658017733451" duration="15205000" />
+      <workItem from="1658088082100" duration="4161000" />
     </task>
     <servers />
   </component>

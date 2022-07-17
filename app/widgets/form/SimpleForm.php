@@ -3,29 +3,22 @@
 namespace App\widgets\form;
 
 /**
- *
+ * Classe responsável por criar um componente simples de formulaŕio
  */
 class SimpleForm
 {
 
-    /**
-     * @var string
-     */
+    /***Propriedade que armazena o nome do formulário @var string */
     private string $formName;
-    /**
-     * @var string
-     */
+    /**Propriedade que armazena a ação do formulário @var string */
     private string $action;
-    /**
-     * @var array
-     */
+    /***Propriedade que armazena os valores dos atributos do input @var array */
     private array $fields;
-    /**
-     * @var string
-     */
+    /***Propriedade que armazena o título do formulário @var string */
     private string $title;
 
     /**
+     * Construtor da classe
      * @param string $formName
      */
     public function __construct(string $formName)
@@ -36,23 +29,25 @@ class SimpleForm
     }
 
     /**
+     * Método responsável por setar o valor do título do formulário
      * @param string $title
      * @return void
      */
-    public function setTitle(string $title)
+    public function setTitle(string $title): void
     {
         $this->title = $title;
     }
 
     /**
-     * @param string $label
-     * @param string $name
-     * @param string $type
-     * @param string $value
-     * @param string $class
+     * Método responsável por armazenar os valores dos atributos do input
+     * @param string $label Nome da label para cada input
+     * @param string $name nome da variável global do formulário
+     * @param string $type valor do tipo do input
+     * @param string $value Valor do input
+     * @param string $class nome da classe do input
      * @return void
      */
-    public function addField(string $label, string $name, string $type, string $value, string $class = '')
+    public function addField(string $label, string $name, string $type, string $value, string $class = ''): void
     {
         $this->fields[] = [
             'label' => $label,
@@ -64,18 +59,20 @@ class SimpleForm
     }
 
     /**
+     * Método responsável por setar a ação do formulário
      * @param string $action
      * @return void
      */
-    public function setAction(string $action)
+    public function setAction(string $action): void
     {
         $this->action = $action;
     }
 
     /**
+     * Método responsável por montar o componente com os valores definidos para os inputs
      * @return void
      */
-    public function show()
+    public function show(): void
     {
         echo "<div class=''>\n";
         echo "<div class=''>{$this->title}\n";

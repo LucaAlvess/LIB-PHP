@@ -5,8 +5,14 @@ namespace App\controller;
 use App\controller\page\Page;
 use App\widgets\form\SimpleForm;
 
+/**
+ *Classe de controle que monsta o formulário
+ */
 class SimpleFormController extends Page
 {
+    /**
+     *Construtor da classe que possuí o formulário montado
+     */
     public function __construct()
     {
         $form = new SimpleForm('my form');
@@ -18,7 +24,11 @@ class SimpleFormController extends Page
         $form->show();
     }
 
-    public function onGravar($param)
+    /**
+     * @param $param
+     * @return void
+     */
+    public function onGravar($param): void
     {
         echo '<pre>';
         var_dump($param);

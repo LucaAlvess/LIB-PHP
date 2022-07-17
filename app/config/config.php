@@ -15,3 +15,11 @@ const NAMESPACE_SERVICES = "App\\services\\";
  */
 
 const URL_PREFIX = 'http://localhost/';
+
+/*
+ *
+ * TIMEZNONE
+ *
+ */
+
+const DEFAULT_TIMEZONE = 'America/Sao_Paulo';

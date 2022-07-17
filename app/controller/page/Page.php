@@ -2,11 +2,14 @@
 
 namespace App\controller\page;
 
+use App\widgets\base\Element;
+
 /**
  * Classe pai com o método comum para os controladores
  */
 class Page
 {
+
     /**
      * Método responsável por executar o método da requisição
      * @return void
